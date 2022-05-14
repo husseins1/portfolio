@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import BrocadeTuumbnail from '../public/images/works/inkdrop_eyecatch.jpg'
+import BrocadeTumbnail from '../public/images/works/Brocade.JPG'
 import thumbWalknote from '../public/images/works/walknote_eyecatch.jpg'
 import ecommerceThumbnail from '../public/images/works/ecommerce.jpg'
 import TransworldThumbnail from '../public/images/works/companyProject.jpg'
@@ -19,7 +19,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="brocade" title="Brocade" thumbnail={BrocadeTuumbnail}>
+          <WorkGridItem id="brocade" title="Brocade" thumbnail={BrocadeTumbnail}>
             Brocade is Landing page for Syrian resturenat in the city of baghdad.
           </WorkGridItem>
         </Section>
