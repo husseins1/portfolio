@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import Image from 'next/image'
+
 import { Text, useColorModeValue } from '@chakra-ui/react'
 import styled from '@emotion/styled'
-import PandaLogo from './icons/pandaLogo'
+
 
 const LogoBox = styled.span`
   font-weight: bold;
